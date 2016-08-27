@@ -2,7 +2,11 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+           fetch="https://android.googlesource.com" />
+           
+  <remote  name="yashar"
+           fetch="https://github.com/nougat-hammerhead" />
+           
   <default revision="refs/tags/android-7.0.0_r1"
            remote="aosp"
            sync-j="4" />
