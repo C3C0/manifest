@@ -12,6 +12,7 @@
            sync-j="4" />
 
   <project path="vendor" name="vendor" remote="yashar" revision="nougat" />
+  <project path="vendor/yashar" name="vendor_yashar" remote="yashar" revision="nougat" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="yashar" revision="nougat" />
   <project path="device/lge/hammerhead-kernel" name="device_lge_hammerhead-kernel" remote="yashar" revision="nougat" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="yashar" revision="nougat" />
