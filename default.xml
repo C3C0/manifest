@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="vendor" name="vendor" remote="yashar" revision="nougat" />
+  <project path="vendor/lge/hammerhead" name="vendor_lge_hammerhead" remote="yashar" revision="nougat" />
   <project path="vendor/yashar" name="vendor_yashar" remote="yashar" revision="nougat" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="yashar" revision="nougat" />
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="yashar" revision="nougat" />
