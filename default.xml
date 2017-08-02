@@ -7,16 +7,16 @@
   <remote  name="yashar"
            fetch="https://github.com/nougat-hammerhead" />
            
-  <default revision="refs/tags/android-7.1.0_r4"
+  <default revision="refs/tags/android-7.1.2_r27"
            remote="aosp"
            sync-j="4" />
 
 
-  <project path="system/extras" name="system_extras" remote="yashar" revision="7.1" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="yashar" revision="7.1" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yashar" revision="7.1" />
-  <project path="frameworks/base" name="frameworks_base" remote="yashar" revision="7.1" />
-  <project path="frameworks/av" name="frameworks_av" remote="yashar" revision="7.1" />
+  <project path="system/extras" name="platform/system/extras" />
+  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="frameworks/av" name="platform/frameworks/av" />
   <project path="vendor/lge/hammerhead" name="vendor_lge_hammerhead" remote="yashar" revision="7.1" />
   <project path="vendor/yashar" name="vendor_yashar" remote="yashar" revision="7.1" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="yashar" revision="7.1" />
@@ -28,8 +28,8 @@
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="yashar" revision="7.1" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="yashar" revision="7.1" />
   <project path="hardware/qcom/msm8x74" name="hardware_qcom_msm8x74" remote="yashar" revision="7.1" />
-  <project path="bionic" name="bionic" remote="yashar" revision="7.1" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="yashar" revision="7.1" />
+  <project path="bionic" name="platform/bionic" />
+  <project path="system/sepolicy" name="platform/system/sepolicy" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="master" />
   <project path="build" name="build" remote="yashar" revision="7.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -237,7 +237,7 @@
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/opencv3" name="platform/external/opencv3" />
+  <project path="external/opencv3" name="platform/external/opencv3" revision="nougat-mr2.2-release" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk-fs" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk-fs" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
